@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+</head>
+<style>
+
+    body {
+        display: flex; 
+        align-items: center; 
+        background-image: url(https://revistacarro.com.br/wp-content/uploads/2020/06/concession%C3%A1ria-ford.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .t-white {
+        color: white;
+    }
+</style>
+<body>
+    
+    <div class="overlay">
+        <div class="container d-grid gap-2" style="justify-content: center;">
+            <h1 class="t-white" style="text-align: center;">Concessionária Renault</h1>
+            <h4 class="t-white" style="text-align: center;">Cadastro</h4>
+            <a href="/carro"><button style="width: 100%" class="btn btn-primary" type="button">CARRO</button></a>
+            <a href="/cliente"><button style="width: 100%" class="btn btn-primary" type="button">CLIENTE</button></a>
+            <a href="/filial"><button style="width: 100%" class="btn btn-primary" type="button">FILIAL</button></a>
+            <a href="/fornecedor"><button style="width: 100%" class="btn btn-primary" type="button">FORNECEDOR</button></a>
+          </div>
+    </div>
+</body>
+</html>
+
+
